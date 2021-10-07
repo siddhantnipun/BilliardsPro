@@ -1,0 +1,21 @@
+//- layout.pug
+
+doctype html
+html
+  head
+    title Billiards Pro
+    block scripts
+    block style    
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/logo1.png")
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/compt") Competitions]
+        li #[a(href="/") Members]
+        li #[a(href="/") Contact us]
+    block content
+    footer#footer 
+      |Copyright © 2021 SiddhantBilliards.com | All rights reserved
